@@ -1,2 +1,81 @@
-# ielts100-ios
-100句 · SwiftUI 英语学习 App：英美双音、点词查义、间隔复习与随身听。附原创演示课程，仅限非商业学习交流。
+# 100句 · 英语研习（iOS）
+
+面向英语学习爱好者的原生 SwiftUI App：句子精读、点词查义、英音与美音、单词收藏、间隔复习、填空练习和随身听。最低 iOS 17，支持 iPhone 与 iPad。
+
+**仅供非商业学习、研究和交流，禁止未经许可的商业化使用。** 本项目采用 [PolyForm Noncommercial 1.0.0](LICENSE)。这是“源码公开、非商业许可”项目，不属于 OSI 定义的开源软件。请先阅读[免责声明](DISCLAIMER.md)与[第三方许可说明](THIRD_PARTY_NOTICES.md)。
+
+## 公开版本包含什么
+
+- 完整学习功能及可直接运行的 Xcode 工程。
+- 3 课自行编写的演示句子、中文翻译、词义和练习，共 18 个核心词条。
+- 句子中所有单词可点按查义；句子和词条均支持英国英语、美国英语合成朗读。
+- 课程与词库搜索、收藏、学习进度、每日目标、间隔复习、备份导出与恢复。
+- 随身听支持暂停、继续、切换和系统播放控件。
+
+**不提供商业书籍的 PDF、EPUB、整书句子、译文、词表或提取缓存。** 本仓库的示例内容不摘录原书。可自行在本地替换有合法使用权的课程数据；请勿向 Issue、PR 或附件上传无权公开传播的材料。源码许可不授予任何第三方书籍的转载权。
+
+## 快速运行
+
+1. 下载仓库，在 Mac 的 Xcode 中打开 `IELTS100.xcodeproj`。
+2. 选择 `IELTS100` scheme 和一个已安装的 iPhone 模拟器，按 `⌘R`。
+3. 也可双击 `启动演示.command` 自动编译并打开模拟器。
+
+项目不依赖第三方 Swift 库，不需要服务器、API Key 或 App 内账号。仓库未包含开发者证书、私钥、签名团队或个人设备资料。
+
+命令行构建：
+
+```sh
+xcodebuild -project IELTS100.xcodeproj -scheme IELTS100 \
+  -destination 'generic/platform=iOS Simulator' \
+  -derivedDataPath build CODE_SIGNING_ALLOWED=NO build
+```
+
+Xcode 27 使用 Device Hub 展示模拟器；脚本也兼容旧版 Simulator.app。需要先在 Xcode 中安装 iOS Simulator 运行时。
+
+## 安装到自己的 iPhone
+
+1. 连接并解锁手机，完成配对并启用开发者模式。
+2. 在 Xcode 设置的 Accounts 中登录自己的 Apple 账号。
+3. 在应用 target 的 Signing & Capabilities 中选择自己的 Team，保留自动签名；将 Bundle Identifier 改为自己可使用的唯一标识。
+4. 选择自己的 iPhone，按 `⌘R`。首次打开按手机提示信任对应开发者。
+5. 后续可连接手机，双击 `安装或续签到iPhone.command` 重新签名安装。期限以实际描述文件为准；保留同一 Bundle Identifier 和签名团队以保留记录，卸载前导出备份。
+
+演示版默认标识为 `io.github.timedetective.ielts100demo`，显示名称为「100句演示」。请使用自己的签名，不要向他人提供账号、证书私钥或设备描述文件。
+
+## 英音与美音
+
+发音来自 Apple 系统语音合成，并非人工录音或第三方考试官方音频。可在 App 设置中试听两种口音；缺少声音时，按提示在系统辅助功能中下载相应英语声音。下载后请自行验证飞行模式、锁屏与耳机播放。
+
+## 自定义课程
+
+数据位于 `IELTS100/Resources/lessons.json`。结构说明见 [课程数据格式](docs/COURSE_FORMAT.md)。替换后运行：
+
+```sh
+python3 tools/validate_course.py
+```
+
+修改内置演示数据后，请同步更新针对示例的测试断言。App 可以承载更多课程，仓库中的 3 课只是可再分发的演示素材。
+
+## 验证与结构
+
+- `IELTS100/`：SwiftUI 界面、合成朗读、离线数据、学习进度。
+- `IELTS100Tests/`：课程覆盖、复习、备份、播放控制等测试。
+- `IELTS100UITests/`：精读、查词、收藏、填空、搜索与播放流程。
+- `tools/validate_course.py`：不依赖第三方库的课程校验。
+- `tools/make_project.py`：可选的工程与图标生成器，需要 Pillow；平常运行不需要。
+
+测试时使用 `xcrun simctl list devices available` 得到自己的模拟器 ID，然后运行：
+
+```sh
+xcodebuild -project IELTS100.xcodeproj -scheme IELTS100 \
+  -destination 'id=你的模拟器ID' -derivedDataPath build \
+  CODE_SIGNING_ALLOWED=NO test
+```
+
+## 许可与免责声明
+
+项目原创部分按 [LICENSE](LICENSE) 许可；版权及必要声明见 [NOTICE](NOTICE)。非商业许可允许的范围以许可证原文为准；第三方组件保持自身许可，不受本项目非商业条款重新限制。
+
+仅供爱好者非商业学习交流，禁止未经许可进行收费售卖、付费服务、商业培训或广告变现等商业化使用。本项目按现状提供，不保证内容绝对准确、考试成绩、持续兼容或服务可用性。在适用法律允许范围内，使用、修改、自签安装、导入或传播资料的风险和后果由使用者自行承担；依法不得排除的责任不受本声明影响。项目与 Apple、IELTS 考试机构、出版社及培训机构无隶属或官方授权关系。
+
+发现问题或权利争议，请通过本仓库 Issues 提供具体说明；不要公开上传个人数据、登录凭据或完整受版权保护的资料。

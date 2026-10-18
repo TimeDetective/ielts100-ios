@@ -1,0 +1,442 @@
+{
+  "title": "100句 · 原创演示",
+  "source": "项目原创演示课程（3课）；不包含商业书籍内容。",
+  "dictionaryAttribution": "演示课程释义由项目编写；未使用ECDICT数据。",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "每天练一点",
+      "subtitle": "原创演示 · 第 01 课",
+      "sentence": "A little practice every day can build lasting confidence.",
+      "translation": "每天练习一点点，就能建立持久的自信。",
+      "grammar": "主语 A little practice every day 表示每天少量练习；can build 表示能够建立；lasting confidence 是宾语。",
+      "startPage": 0,
+      "endPage": 0,
+      "exerciseAnswer": "practice",
+      "words": [
+        {
+          "id": "1-1",
+          "word": "practice",
+          "ipa": "",
+          "meaning": "练习",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "1-2",
+          "word": "little",
+          "ipa": "",
+          "meaning": "少量的",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "1-3",
+          "word": "day",
+          "ipa": "",
+          "meaning": "一天",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "1-4",
+          "word": "build",
+          "ipa": "",
+          "meaning": "建立",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "1-5",
+          "word": "lasting",
+          "ipa": "",
+          "meaning": "持久的",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "1-6",
+          "word": "confidence",
+          "ipa": "",
+          "meaning": "自信",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        }
+      ],
+      "glosses": {
+        "a": {
+          "lemma": "a",
+          "meaning": "一个；一些",
+          "note": "本句 a 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "build": {
+          "lemma": "build",
+          "meaning": "建立",
+          "note": "本句 build 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "can": {
+          "lemma": "can",
+          "meaning": "能够",
+          "note": "本句 can 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "confidence": {
+          "lemma": "confidence",
+          "meaning": "自信",
+          "note": "本句 confidence 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "day": {
+          "lemma": "day",
+          "meaning": "一天",
+          "note": "本句 day 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "every": {
+          "lemma": "every",
+          "meaning": "每一个",
+          "note": "本句 every 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "lasting": {
+          "lemma": "lasting",
+          "meaning": "持久的",
+          "note": "本句 lasting 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "little": {
+          "lemma": "little",
+          "meaning": "少量的",
+          "note": "本句 little 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "practice": {
+          "lemma": "practice",
+          "meaning": "练习",
+          "note": "本句 practice 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "听清再比较",
+      "subtitle": "原创演示 · 第 02 课",
+      "sentence": "We compare two voices and listen for small differences.",
+      "translation": "我们比较两种声音，并留意细微的差别。",
+      "grammar": "We 是主语；compare 和 listen 是由 and 连接的两个动作；listen for 表示留意听。",
+      "startPage": 0,
+      "endPage": 0,
+      "exerciseAnswer": "compare",
+      "words": [
+        {
+          "id": "2-1",
+          "word": "compare",
+          "ipa": "",
+          "meaning": "比较",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "2-2",
+          "word": "voices",
+          "ipa": "",
+          "meaning": "声音（复数）",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "2-3",
+          "word": "listen",
+          "ipa": "",
+          "meaning": "听",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "2-4",
+          "word": "small",
+          "ipa": "",
+          "meaning": "细小的",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "2-5",
+          "word": "differences",
+          "ipa": "",
+          "meaning": "差别（复数）",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "2-6",
+          "word": "two",
+          "ipa": "",
+          "meaning": "两个",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        }
+      ],
+      "glosses": {
+        "and": {
+          "lemma": "and",
+          "meaning": "并且",
+          "note": "本句 and 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "compare": {
+          "lemma": "compare",
+          "meaning": "比较",
+          "note": "本句 compare 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "differences": {
+          "lemma": "difference",
+          "meaning": "差别（复数）",
+          "note": "本句 differences 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "for": {
+          "lemma": "for",
+          "meaning": "为了；在此与 listen 搭配表示留意听",
+          "note": "本句 for 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "listen": {
+          "lemma": "listen",
+          "meaning": "听",
+          "note": "本句 listen 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "small": {
+          "lemma": "small",
+          "meaning": "细小的",
+          "note": "本句 small 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "two": {
+          "lemma": "two",
+          "meaning": "两个",
+          "note": "本句 two 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "voices": {
+          "lemma": "voice",
+          "meaning": "声音（复数）",
+          "note": "本句 voices 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "we": {
+          "lemma": "we",
+          "meaning": "我们",
+          "note": "本句 we 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "保持好奇心",
+      "subtitle": "原创演示 · 第 03 课",
+      "sentence": "A curious learner can discover new ideas by asking clear questions.",
+      "translation": "好奇的学习者可以通过提出清晰的问题来发现新想法。",
+      "grammar": "A curious learner 是主语；can discover 是谓语；by asking clear questions 表示方式。",
+      "startPage": 0,
+      "endPage": 0,
+      "exerciseAnswer": "discover",
+      "words": [
+        {
+          "id": "3-1",
+          "word": "discover",
+          "ipa": "",
+          "meaning": "发现",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "3-2",
+          "word": "curious",
+          "ipa": "",
+          "meaning": "好奇的",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "3-3",
+          "word": "learner",
+          "ipa": "",
+          "meaning": "学习者",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "3-4",
+          "word": "ideas",
+          "ipa": "",
+          "meaning": "想法（复数）",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "3-5",
+          "word": "asking",
+          "ipa": "",
+          "meaning": "提问；询问",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        },
+        {
+          "id": "3-6",
+          "word": "questions",
+          "ipa": "",
+          "meaning": "问题（复数）",
+          "notes": [
+            "原创演示释义；请结合整句理解。"
+          ],
+          "core": true,
+          "group": "核心词汇",
+          "page": 0
+        }
+      ],
+      "glosses": {
+        "a": {
+          "lemma": "a",
+          "meaning": "一个；一些",
+          "note": "本句 a 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "asking": {
+          "lemma": "ask",
+          "meaning": "提问；询问",
+          "note": "本句 asking 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "by": {
+          "lemma": "by",
+          "meaning": "通过",
+          "note": "本句 by 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "can": {
+          "lemma": "can",
+          "meaning": "能够",
+          "note": "本句 can 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "clear": {
+          "lemma": "clear",
+          "meaning": "清晰的",
+          "note": "本句 clear 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "curious": {
+          "lemma": "curious",
+          "meaning": "好奇的",
+          "note": "本句 curious 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "discover": {
+          "lemma": "discover",
+          "meaning": "发现",
+          "note": "本句 discover 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "ideas": {
+          "lemma": "idea",
+          "meaning": "想法（复数）",
+          "note": "本句 ideas 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "learner": {
+          "lemma": "learner",
+          "meaning": "学习者",
+          "note": "本句 learner 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "new": {
+          "lemma": "new",
+          "meaning": "新的",
+          "note": "本句 new 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        },
+        "questions": {
+          "lemma": "question",
+          "meaning": "问题（复数）",
+          "note": "本句 questions 的用法：结合上方整句和中文译文理解。",
+          "source": "项目原创演示课程，不摘录商业书籍。"
+        }
+      }
+    }
+  ]
+}
